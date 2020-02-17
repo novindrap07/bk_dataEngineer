@@ -1,0 +1,1 @@
+sqoop import -m 1 --connect jdbc:postgresql://157.230.240.246:5432/postgres --username iykra_trainee --password passwordiykra --warehouse-dir /user/husni/novindrap/record --table novindraprasetio_waze_df -- --schema test
